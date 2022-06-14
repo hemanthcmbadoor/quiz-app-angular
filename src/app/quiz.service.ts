@@ -8,7 +8,7 @@ import { GetQuizResponse } from './quiz.model';
 })
 export class QuizService {
 
-  quizDataUrl = 'https://opentdb.com/api.php?amount=3&type=multiple';
+  quizDataUrl = 'https://opentdb.com/api.php?amount=50&type=multiple';
 
   constructor(private http: HttpClient) { }
 
